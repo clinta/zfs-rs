@@ -1,0 +1,363 @@
+::nix::ioctl_readwrite_bad!(first, 23040u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    pool_destroy,
+    23041u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_import,
+    23042u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_export,
+    23043u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_configs,
+    23044u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_stats,
+    23045u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_tryimport,
+    23046u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_scan,
+    23047u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_freeze,
+    23048u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_upgrade,
+    23049u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_get_history,
+    23050u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_add,
+    23051u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_remove,
+    23052u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_set_state,
+    23053u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_attach,
+    23054u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_detach,
+    23055u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_setpath,
+    23056u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_setfru,
+    23057u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    objset_stats,
+    23058u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    objset_zplprops,
+    23059u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    dataset_list_next,
+    23060u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    snapshot_list_next,
+    23061u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    set_prop,
+    23062u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(create, 23063u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(destroy, 23064u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    rollback,
+    23065u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(rename, 23066u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(recv, 23067u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(send, 23068u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    inject_fault,
+    23069u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    clear_fault,
+    23070u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    inject_list_next,
+    23071u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    error_log,
+    23072u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(clear, 23073u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(promote, 23074u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    snapshot,
+    23075u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    dsobj_to_dsname,
+    23076u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    obj_to_path,
+    23077u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_set_props,
+    23078u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_get_props,
+    23079u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    set_fsacl,
+    23080u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    get_fsacl,
+    23081u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(share, 23082u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    inherit_prop,
+    23083u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(smb_acl, 23084u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    userspace_one,
+    23085u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    userspace_many,
+    23086u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    userspace_upgrade,
+    23087u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(hold, 23088u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(release, 23089u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    get_holds,
+    23090u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    objset_recvd_props,
+    23091u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    vdev_split,
+    23092u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    next_obj,
+    23093u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(diff, 23094u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    tmp_snapshot,
+    23095u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    obj_to_stats,
+    23096u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    space_written,
+    23097u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    space_snaps,
+    23098u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    destroy_snaps,
+    23099u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_reguid,
+    23100u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_reopen,
+    23101u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    send_progress,
+    23102u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    log_history,
+    23103u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    send_new,
+    23104u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    send_space,
+    23105u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(clone, 23106u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    bookmark,
+    23107u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    get_bookmarks,
+    23108u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    destroy_bookmarks,
+    23109u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    recv_new,
+    23110u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_sync,
+    23111u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    channel_program,
+    23112u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    load_key,
+    23113u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    unload_key,
+    23114u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    change_key,
+    23115u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(remap, 23116u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    pool_checkpoint,
+    23117u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_discard_checkpoint,
+    23118u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_initialize,
+    23119u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    pool_trim,
+    23120u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(linux, 23168u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(
+    events_next,
+    23169u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    events_clear,
+    23170u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(
+    events_seek,
+    23171u32,
+    crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd
+);
+::nix::ioctl_readwrite_bad!(freebsd, 23232u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);
+::nix::ioctl_readwrite_bad!(last, 23233u32, crate::zfs_cmd::zfs_cmd_bindings::zfs_cmd);

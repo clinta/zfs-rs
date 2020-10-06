@@ -1,0 +1,16 @@
+[package]
+name = "zfs-rs-nvpair-sys"
+version = "0.0.1"
+authors = ["Clint Armstrong <clint@clintarmstrong.net>"]
+edition = "2018"
+description = "nvpair bindings for zfs-rs"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+strum = "0.19.2"
+strum_macros = "0.19.2"
+num-derive = "0.3"
+num-traits = "0.2"
+
+[build-dependencies]
+bindgen = "0.55.1"
